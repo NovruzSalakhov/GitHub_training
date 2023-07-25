@@ -9,6 +9,6 @@ public class YandexTest {
     @Test
     void successfulSearchTest() {
         Configuration.pageLoadStrategy = "eager";
-        open("https://www.ya.com/");
+        open("https://www.yandex.com/");
     }
 }
